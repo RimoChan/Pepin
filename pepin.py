@@ -34,4 +34,4 @@ for 人 in 同事的名字:
     print(人, f'坏: {坏}/{sum(d.values())}')
     m = max(d.values())
     for i in range(24):
-        print(f'{i:2}|' + '▇'*int(20 * d.get(i, 0) / m))
+        print(f'{i:2}点|' + '▇'*int(20 * d.get(i, 0) / m))
